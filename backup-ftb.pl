@@ -1,7 +1,7 @@
 use strict;
 use Minecraft::RCON;
 
-my $rcon = Minecraft::RCON->new( { password => 'mine42love' } );
+my $rcon = Minecraft::RCON->new( { password => 'minecraft-rcon-password-here' } );
 if ($rcon->connect){
     print $rcon->command('/save-off');
     print "\n" ;
